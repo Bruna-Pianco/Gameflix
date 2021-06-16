@@ -1,119 +1,107 @@
-
-*{
-	padding: 0;
-	margin:0;
-	box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /*elementos base*/
 
-body{
-	background: #141414;
-	font-family: Arial, Helvetica, sans-serif;
-	color: white;
-
+body {
+  background: #141414;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
-header .container{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-header .logo{
-	margin-left: 5px;
-	color:rgb(168, 47, 148);
-	font-family: 'Arial Black',Times, serif;
-	font-size: 40px;
+header .logo {
+  margin-left: 5px;
+  color: rgb(168, 47, 148);
+  font-family: "Arial Black", Times, serif;
+  font-size: 40px;
 }
 
-header nav a{
-	text-decoration: none;
-	color: #AAA;
-	margin-right: 10px;
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
 }
 
-header nav a:hover{
-	color: #fff;
+header nav a:hover {
+  color: #fff;
 }
 
 /*filme principal*/
 
-.destaque-principal{
-	font-size:16px;
-	height: 400px;
-	background:url('/img/destaque.png') no-repeat fixed center;
-	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-
+.destaque-principal {
+  font-size: 16px;
+  height: 400px;
+  background: url(../img/destaque.png) no-repeat fixed center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-
-.destaque-principal .descricao{
-	color:#141414;
-	margin-top: 50px;
-	margin-bottom: 40px;
-	font-size: 20px;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+.destaque-principal .descricao {
+  color: #141414;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.destaque-principal .titulo{
-	color: #141414;
-	font-size: 50px;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.destaque-principal .titulo {
+  color: #141414;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
-.botao{
-	background-color: rgba(0,0,0,.50);
-	border: none;
-	color: white;
-	padding: 15px 30px;
-	margin-right: 15px;
-	font-size: 12px;
-	cursor: pointer;
-	transition: .3s ease all;
-	text-decoration: none;
-
+.botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  text-decoration: none;
 }
 
-.botao:hover{
-	background-color: white;
-	color: black;
+.botao:hover {
+  background-color: white;
+  color: black;
 }
 
-.botao i{
-	margin-right: 8px;
-	font-size: 14px;
+.botao i {
+  margin-right: 8px;
+  font-size: 14px;
 }
 
-.container{
-	margin-left: 20px;
-	font-size: 18px;
+.container {
+  margin-left: 20px;
+  font-size: 18px;
 }
 
-.destaque-principal .container{
-	width: 70%;
+.destaque-principal .container {
+  width: 70%;
 }
 
-.box-jogo{
-	height: 100%;
-	width: 100%;
-	display: block;
+.box-jogo {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
 
-.destaque-xbox{
-	height: 200%;
-	width: 100%;
-	align-items: center;
-
-
-
+.destaque-xbox {
+  height: 200%;
+  width: 100%;
+  align-items: center;
 }
-
